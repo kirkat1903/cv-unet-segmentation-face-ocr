@@ -1,0 +1,18 @@
+# --- Общие зависимости ---
+numpy
+opencv-python
+requests
+tqdm
+pillow
+
+# --- Сегментация (U-Net) ---
+torch
+torchvision
+albumentations
+matplotlib
+
+# --- Верификация лиц ---
+facenet-pytorch
+
+# --- OCR ---
+easyocr

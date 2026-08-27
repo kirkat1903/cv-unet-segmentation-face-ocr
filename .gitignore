@@ -1,0 +1,15 @@
+.venv/
+.idea/
+__pycache__/
+*.pyc
+
+# датасеты — слишком большие для репозитория, готовятся prepare_dataset.py
+data/
+raw_lgg_mri/
+lgg_mri.zip
+
+# артефакты обучения/инференса
+*.pth
+face_db.pkl
+output.txt
+output.json
